@@ -1,0 +1,1 @@
+import{q as s,f as a,w as e,m as n,e as t,j as r}from"./index-D5D7UoFb.js";const o=s({},[["render",function(s,o){const f=n;return t(),a(f,null,{default:e(()=>[r(" 消息 ")]),_:1})}]]);export{o as default};

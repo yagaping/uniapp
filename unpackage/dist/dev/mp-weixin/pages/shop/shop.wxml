@@ -1,0 +1,1 @@
+<view class="{{['child', virtualHostClass]}}" style="{{virtualHostStyle}}" hidden="{{virtualHostHidden || false}}" id="{{d}}"> 买药 <child class="r" virtualHostClass="r" u-s="{{['child']}}" u-r="childRef" u-i="4ce56a5b-0" bind:__l="__l"><view wx:for="{{a}}" wx:for-item="v0" wx:key="b" slot="{{v0.c}}"> 333{{v0.a}} <button bindtap="{{b}}">点击</button></view></child></view>

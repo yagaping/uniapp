@@ -1,0 +1,1 @@
+<view class="child">子组件</view><slot name="child"></slot><view>count:{{b}}</view>

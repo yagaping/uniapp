@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "和泰元康",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "custom-nav": "../../components/custom-nav/custom-nav",
+    "up-search": "../../uni_modules/uview-plus/components/u-search/u-search",
+    "up-tabs": "../../uni_modules/uview-plus/components/u-tabs/u-tabs",
+    "up-lazy-load": "../../uni_modules/uview-plus/components/u-lazy-load/u-lazy-load",
+    "skeleton": "./components/Skeleton"
+  }
+}

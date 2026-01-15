@@ -1,0 +1,1 @@
+{"version":3,"file":"api.js","sources":["api/api.js"],"sourcesContent":["import http from './http.js'\r\n\r\n// 医院列表接口\r\nexport const hospitalList = data => {\r\n\treturn http('/hospital/list')\r\n}"],"names":["http"],"mappings":";;AAGY,MAAC,eAAe,UAAQ;AACnC,SAAOA,SAAAA,KAAK,gBAAgB;AAC7B;;"}

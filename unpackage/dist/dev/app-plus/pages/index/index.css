@@ -1,0 +1,1267 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+@font-face {
+  font-family: "uicon-iconfont";
+  src: url("https://at.alicdn.com/t/font_2225171_8kdcwk4po24.ttf") format("truetype");
+}
+.u-icon[data-v-ac70166d] {
+  display: flex;
+  align-items: center;
+}
+.u-icon--left[data-v-ac70166d] {
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.u-icon--right[data-v-ac70166d] {
+  flex-direction: row;
+  align-items: center;
+}
+.u-icon--top[data-v-ac70166d] {
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.u-icon--bottom[data-v-ac70166d] {
+  flex-direction: column;
+  justify-content: center;
+}
+.u-icon__icon[data-v-ac70166d] {
+  font-family: uicon-iconfont;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.u-icon__icon--primary[data-v-ac70166d] {
+  color: #3c9cff;
+}
+.u-icon__icon--success[data-v-ac70166d] {
+  color: #5ac725;
+}
+.u-icon__icon--error[data-v-ac70166d] {
+  color: #f56c6c;
+}
+.u-icon__icon--warning[data-v-ac70166d] {
+  color: #f9ae3d;
+}
+.u-icon__icon--info[data-v-ac70166d] {
+  color: #909399;
+}
+.u-icon__img[data-v-ac70166d] {
+  height: auto;
+  will-change: transform;
+}
+.u-icon__label[data-v-ac70166d] {
+  line-height: 1;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.custom-nav[data-v-1b09776d] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.nav-left[data-v-1b09776d] {
+  width: 40px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-title[data-v-1b09776d] {
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  top: var(--1b09776d-statusBarHeight\ \+\ \"px\");
+  transform: translateX(-50%);
+  text-align: center;
+  width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.nav-right[data-v-1b09776d] {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-search[data-v-e082a34a] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
+.u-search__content[data-v-e082a34a] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 10px;
+  flex: 1;
+  justify-content: space-between;
+  border-width: 1px;
+  border-color: transparent;
+  border-style: solid;
+  overflow: hidden;
+}
+.u-search__content__icon[data-v-e082a34a] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.u-search__content__label[data-v-e082a34a] {
+  color: #303133;
+  font-size: 14px;
+  margin: 0 4px;
+}
+.u-search__content__close[data-v-e082a34a] {
+  width: 20px;
+  height: 20px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background-color: #C6C7CB;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.82);
+}
+.u-search__content__input[data-v-e082a34a] {
+  flex: 1;
+  font-size: 14px;
+  line-height: 1;
+  margin: 0 5px;
+  color: #303133;
+}
+.u-search__content__input--placeholder[data-v-e082a34a] {
+  color: #909193;
+}
+.u-search__action[data-v-e082a34a] {
+  font-size: 14px;
+  color: #303133;
+  width: 0;
+  overflow: hidden;
+  transition-property: width;
+  transition-duration: 0.3s;
+  white-space: nowrap;
+  text-align: center;
+}
+.u-search__action--active[data-v-e082a34a] {
+  width: 40px;
+  margin-left: 5px;
+}
+.u-search__reverse .u-search__content__icon[data-v-e082a34a] {
+  order: 3;
+}
+.u-search__reverse .u-search__content__close[data-v-e082a34a] {
+  order: 2;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-badge[data-v-06cca9b7] {
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  line-height: 11px;
+  text-align: center;
+  font-size: 11px;
+  color: #FFFFFF;
+}
+.u-badge--dot[data-v-06cca9b7] {
+  height: 8px;
+  width: 8px;
+}
+.u-badge--inverted[data-v-06cca9b7] {
+  font-size: 13px;
+}
+.u-badge--not-dot[data-v-06cca9b7] {
+  padding: 2px 5px;
+}
+.u-badge--horn[data-v-06cca9b7] {
+  border-bottom-left-radius: 0;
+}
+.u-badge--primary[data-v-06cca9b7] {
+  background-color: #3c9cff;
+}
+.u-badge--primary--inverted[data-v-06cca9b7] {
+  color: #3c9cff;
+}
+.u-badge--error[data-v-06cca9b7] {
+  background-color: #f56c6c;
+}
+.u-badge--error--inverted[data-v-06cca9b7] {
+  color: #f56c6c;
+}
+.u-badge--success[data-v-06cca9b7] {
+  background-color: #5ac725;
+}
+.u-badge--success--inverted[data-v-06cca9b7] {
+  color: #5ac725;
+}
+.u-badge--info[data-v-06cca9b7] {
+  background-color: #909399;
+}
+.u-badge--info--inverted[data-v-06cca9b7] {
+  color: #909399;
+}
+.u-badge--warning[data-v-06cca9b7] {
+  background-color: #f9ae3d;
+}
+.u-badge--warning--inverted[data-v-06cca9b7] {
+  color: #f9ae3d;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-tabs__wrapper[data-v-02b0c54f] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.u-tabs__wrapper__scroll-view-wrapper[data-v-02b0c54f] {
+  flex: 1;
+  overflow: auto hidden;
+}
+.u-tabs__wrapper__scroll-view[data-v-02b0c54f] {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+.u-tabs__wrapper__nav[data-v-02b0c54f] {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.u-tabs__wrapper__nav__item[data-v-02b0c54f] {
+  padding: 0 11px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.u-tabs__wrapper__nav__item__text[data-v-02b0c54f] {
+  font-size: 15px;
+  color: #606266;
+  white-space: nowrap !important;
+}
+.u-tabs__wrapper__nav__item__text--disabled[data-v-02b0c54f] {
+  color: #c8c9cc !important;
+}
+.u-tabs__wrapper__nav__line[data-v-02b0c54f] {
+  height: 3px;
+  background: #3c9cff;
+  width: 30px;
+  position: absolute;
+  bottom: 2px;
+  border-radius: 100px;
+  transition-property: transform;
+  transition-duration: 300ms;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.u-wrap[data-v-8b9e8d2e] {
+  background-color: #eee;
+  overflow: hidden;
+}
+.u-lazy-item[data-v-8b9e8d2e] {
+  transform: transition3d(0, 0, 0);
+  will-change: transform;
+  display: block;
+  width: 100%;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.content[data-v-27f2461a] {
+  min-height: 100vh;
+  background: #F7F8FA;
+  width: 100vw;
+}
+.content .head uni-image[data-v-27f2461a] {
+  width: 23.4375rem;
+  display: block;
+}
+.content .search[data-v-27f2461a] {
+  margin: 0 0.875rem;
+  position: relative;
+}
+.content .search_content[data-v-27f2461a] {
+  gap: 0.375rem;
+  box-sizing: border-box;
+  padding: 0 0.625rem;
+  width: 100%;
+  position: absolute;
+  top: -1.9375rem;
+  height: 3.875rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.content .search_input[data-v-27f2461a] {
+  flex: 1;
+}
+.content .search .chart[data-v-27f2461a] {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(../../static/chart.png);
+  background-size: 100% 100%;
+}
+.content .main[data-v-27f2461a] {
+  padding: 0 0.875rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8125rem;
+}
+.content .main .nav_menu[data-v-27f2461a] {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2.6875rem;
+  border-radius: 0.5rem;
+  padding: 0.8125rem 0;
+  background: #FFFFFF;
+}
+.content .main .nav_menu .item[data-v-27f2461a] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+}
+.content .main .nav_menu .item uni-image[data-v-27f2461a] {
+  width: 1.8125rem;
+  height: 1.8125rem;
+}
+.content .main .nav_menu .item uni-text[data-v-27f2461a] {
+  font-family: Source Han Sans;
+  font-size: 0.875rem;
+  font-weight: 350;
+  color: #1A1A1A;
+}
+.content .main .type_card[data-v-27f2461a] {
+  height: 5.625rem;
+  border-radius: 0.5rem;
+  background: #FFFFFF;
+  display: flex;
+  overflow: hidden;
+}
+.content .main .type_card .type[data-v-27f2461a] {
+  width: 5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #eee;
+}
+.content .main .type_card .type .title[data-v-27f2461a] {
+  font-family: Source Han Sans;
+  font-size: 0.90125rem;
+  font-weight: bold;
+  line-height: normal;
+  color: #000000;
+}
+.content .main .type_card .type .tips[data-v-27f2461a] {
+  font-size: 0.60094rem;
+  padding: 0.1875rem 0 0.375rem;
+}
+.content .main .type_card .type .btn[data-v-27f2461a] {
+  width: 3.75rem;
+  height: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFC162;
+  border-radius: 1.25rem;
+  font-size: 0.625rem;
+  color: #fff;
+  background: #FFC162;
+}
+.content .main .type_card .list[data-v-27f2461a] {
+  height: 100%;
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 0.5rem;
+  padding: 0.625rem 0.5rem;
+  box-sizing: border-box;
+}
+.content .main .type_card .list uni-text[data-v-27f2461a] {
+  padding: 0.3125rem 0;
+  text-align: center;
+  color: #333;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F5F5F5;
+  border-radius: 0.5rem;
+}
+.content .main .type_card .list uni-text.active[data-v-27f2461a] {
+  background: #E0EFFF;
+  color: #1677FF;
+}
+.content .main .doctors[data-v-27f2461a] {
+  border-radius: 0.5rem;
+  background: #FFF;
+  padding: 0.5rem 0.625rem 0 0;
+}
+.content .main .doctors .title[data-v-27f2461a] {
+  font-size: 1rem;
+  color: #000;
+  padding: 0.625rem 0.75rem;
+}
+.content .main .doctors_content[data-v-27f2461a] {
+  display: flex;
+  height: 13.25rem;
+  gap: 0.625rem;
+}
+.content .main .doctors_content .left[data-v-27f2461a] {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(180deg, #D6E6F8 0%, #FFFFFF 75%);
+  border-radius: 0.625rem;
+}
+.content .main .doctors_content .left .info[data-v-27f2461a] {
+  text-align: center;
+  color: #333;
+  padding-top: 0.8125rem;
+  line-height: 1.6;
+}
+.content .main .doctors_content .left .info .name[data-v-27f2461a] {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.content .main .doctors_content .left .info .award[data-v-27f2461a] {
+  font-size: 0.875rem;
+}
+.content .main .doctors_content .left .avator[data-v-27f2461a] {
+  display: flex;
+  justify-content: flex-end;
+}
+.content .main .doctors_content .left .avator uni-image[data-v-27f2461a] {
+  width: 7.0625rem;
+  height: 9.25rem;
+  display: block;
+}
+.content .main .doctors_content .right[data-v-27f2461a] {
+  width: 11.3125rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+.content .main .doctors_content .right .item[data-v-27f2461a] {
+  height: 4.16656rem;
+  background: linear-gradient(180deg, #D6E6F8 0%, #FFFFFF 75%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.625rem;
+}
+.content .main .doctors_content .right .item_info[data-v-27f2461a] {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  gap: 0.25rem;
+  padding-left: 0.625rem;
+}
+.content .main .doctors_content .right .item_info .name[data-v-27f2461a] {
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+.content .main .doctors_content .right .item_info .award[data-v-27f2461a] {
+  font-size: 0.625rem;
+}
+.content .main .doctors_content .right .item_hd uni-image[data-v-27f2461a] {
+  width: 4.4375rem;
+  height: 3.8125rem;
+  display: block;
+}
+.content .main .category .tab_content[data-v-27f2461a] {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  padding: 0.625rem 0;
+}
+.content .main .category .tab_content .iformation[data-v-27f2461a] {
+  padding: 0.625rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+}
+.content .main .category .tab_content .iformation .basic[data-v-27f2461a] {
+  display: flex;
+  gap: 0.625rem;
+}
+.content .main .category .tab_content .iformation .basic .avator[data-v-27f2461a] {
+  width: 4.375rem;
+  height: 4.375rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.content .main .category .tab_content .iformation .basic .avator uni-image[data-v-27f2461a] {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.content .main .category .tab_content .iformation .sign[data-v-27f2461a] {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.3125rem;
+}
+.content .main .category .tab_content .iformation .sign_name[data-v-27f2461a] {
+  display: flex;
+  gap: 0.625rem;
+}
+.content .main .category .tab_content .iformation .sign_name .name[data-v-27f2461a] {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.content .main .category .tab_content .iformation .sign_name .tag[data-v-27f2461a] {
+  min-width: 7.375rem;
+  height: 1.375rem;
+  background-image: url(../../static/index/tag.png);
+  background-size: 7.375rem 1.375rem;
+  background-repeat: no-repeat;
+  font-size: 0.75rem;
+  color: #Fff;
+  padding-left: 1.375rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.content .main .category .tab_content .iformation .sign .address[data-v-27f2461a] {
+  display: flex;
+}
+.content .main .category .tab_content .iformation .sign .address uni-text[data-v-27f2461a] {
+  background-color: #FD8702;
+  border-radius: 0.3125rem;
+  font-size: 0.75rem;
+  color: #fff;
+  padding: 0 0.3125rem;
+}
+.content .main .category .tab_content .iformation .describe[data-v-27f2461a] {
+  font-size: 0.75rem;
+  font-weight: 350;
+  line-height: 1.25rem;
+  color: #606972;
+  padding: 0.625rem 0;
+}
+.content .main .category .tab_content .iformation .feature[data-v-27f2461a] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .main .category .tab_content .iformation .feature .btn[data-v-27f2461a] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+.content .main .category .tab_content .iformation .feature .btn uni-image[data-v-27f2461a] {
+  width: 1.4375rem;
+  height: 1.4375rem;
+}
+.content .main .category .tab_content .iformation .feature .btn uni-text[data-v-27f2461a] {
+  font-size: 0.75rem;
+  color: #333;
+}
+.sk-transparent[data-v-27f2461a] {
+  color: transparent !important;
+}
+.sk-text-14-2857-942[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.575rem;
+  position: absolute !important;
+}
+.sk-text[data-v-27f2461a] {
+  background-origin: content-box !important;
+  background-clip: content-box !important;
+  background-color: transparent !important;
+  color: transparent !important;
+  background-repeat: repeat-y !important;
+}
+.sk-text-0-0000-94[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 0%, #EEEEEE 0%, #EEEEEE 100%, transparent 0%) !important;
+  background-size: 100% 1.375rem;
+  position: relative !important;
+}
+.sk-opacity[data-v-27f2461a] {
+  opacity: 0 !important;
+}
+.sk-text-14-2857-395[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.1375rem;
+  position: relative !important;
+}
+.sk-text-14-2857-570[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.1375rem;
+  position: relative !important;
+}
+.sk-text-14-2857-213[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.1375rem;
+  position: relative !important;
+}
+.sk-text-14-2857-503[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.1375rem;
+  position: relative !important;
+}
+.sk-text-14-2857-11[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.225rem;
+  position: relative !important;
+}
+.sk-text-14-2857-786[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 0.7875rem;
+  position: relative !important;
+}
+.sk-text-14-2857-541[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 0.7875rem;
+  position: relative !important;
+}
+.sk-text-14-2857-560[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.05rem;
+  position: relative !important;
+}
+.sk-text-14-2857-429[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.05rem;
+  position: relative !important;
+}
+.sk-text-14-2857-715[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.05rem;
+  position: relative !important;
+}
+.sk-text-14-2857-707[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.05rem;
+  position: relative !important;
+}
+.sk-text-14-2857-978[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.05rem;
+  position: relative !important;
+}
+.sk-text-14-2857-762[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.05rem;
+  position: relative !important;
+}
+.sk-text-14-2857-492[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.05rem;
+  position: relative !important;
+}
+.sk-text-14-2857-951[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.05rem;
+  position: relative !important;
+}
+.sk-text-14-2857-496[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.225rem;
+  position: relative !important;
+}
+.sk-text-14-2857-760[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 0.7875rem;
+  position: relative !important;
+}
+.sk-text-14-2857-215[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 0.7875rem;
+  position: relative !important;
+}
+.sk-text-14-2857-257[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.05rem;
+  position: relative !important;
+}
+.sk-text-14-2857-991[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.05rem;
+  position: relative !important;
+}
+.sk-text-14-2857-969[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.05rem;
+  position: relative !important;
+}
+.sk-text-14-2857-133[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.05rem;
+  position: relative !important;
+}
+.sk-text-14-2857-931[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.05rem;
+  position: relative !important;
+}
+.sk-text-14-2857-831[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.05rem;
+  position: relative !important;
+}
+.sk-text-14-2857-21[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.05rem;
+  position: relative !important;
+}
+.sk-text-14-2857-117[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.05rem;
+  position: relative !important;
+}
+.sk-text-14-2857-5[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.4rem;
+  position: relative !important;
+}
+.sk-text-18-7500-859[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 18.75%, #EEEEEE 0%, #EEEEEE 81.25%, transparent 0%) !important;
+  background-size: 100% 1.6rem;
+  position: relative !important;
+}
+.sk-text-18-7500-844[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 18.75%, #EEEEEE 0%, #EEEEEE 81.25%, transparent 0%) !important;
+  background-size: 100% 1.4rem;
+  position: relative !important;
+}
+.sk-text-14-2857-858[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.3125rem;
+  position: relative !important;
+}
+.sk-text-14-2857-943[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 0.875rem;
+  position: relative !important;
+}
+.sk-text-14-2857-689[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 1.3125rem;
+  position: relative !important;
+}
+.sk-text-14-2857-234[data-v-27f2461a] {
+  background-image: linear-gradient(transparent 14.2857%, #EEEEEE 0%, #EEEEEE 85.7143%, transparent 0%) !important;
+  background-size: 100% 0.875rem;
+  position: relative !important;
+}
+.sk-image[data-v-27f2461a] {
+  background: #EFEFEF !important;
+}
+.sk-container[data-v-27f2461a] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: transparent;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.content[data-v-1cf27b2a] {
+  min-height: 100vh;
+  background: #F7F8FA;
+  width: 100vw;
+}
+.content .head uni-image[data-v-1cf27b2a] {
+  width: 23.4375rem;
+  display: block;
+}
+.content .search[data-v-1cf27b2a] {
+  margin: 0 0.875rem;
+  position: relative;
+}
+.content .search_content[data-v-1cf27b2a] {
+  gap: 0.375rem;
+  box-sizing: border-box;
+  padding: 0 0.625rem;
+  width: 100%;
+  position: absolute;
+  top: -1.9375rem;
+  height: 3.875rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.content .search_input[data-v-1cf27b2a] {
+  flex: 1;
+}
+.content .search .chart[data-v-1cf27b2a] {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(../../static/chart.png);
+  background-size: 100% 100%;
+}
+.content .main[data-v-1cf27b2a] {
+  padding: 0 0.875rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8125rem;
+}
+.content .main .nav_menu[data-v-1cf27b2a] {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2.6875rem;
+  border-radius: 0.5rem;
+  padding: 0.8125rem 0;
+  background: #FFFFFF;
+}
+.content .main .nav_menu .item[data-v-1cf27b2a] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+}
+.content .main .nav_menu .item uni-image[data-v-1cf27b2a] {
+  width: 1.8125rem;
+  height: 1.8125rem;
+}
+.content .main .nav_menu .item uni-text[data-v-1cf27b2a] {
+  font-family: Source Han Sans;
+  font-size: 0.875rem;
+  font-weight: 350;
+  color: #1A1A1A;
+}
+.content .main .type_card[data-v-1cf27b2a] {
+  height: 5.625rem;
+  border-radius: 0.5rem;
+  background: #FFFFFF;
+  display: flex;
+  overflow: hidden;
+}
+.content .main .type_card .type[data-v-1cf27b2a] {
+  width: 5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #eee;
+}
+.content .main .type_card .type .title[data-v-1cf27b2a] {
+  font-family: Source Han Sans;
+  font-size: 0.90125rem;
+  font-weight: bold;
+  line-height: normal;
+  color: #000000;
+}
+.content .main .type_card .type .tips[data-v-1cf27b2a] {
+  font-size: 0.60094rem;
+  padding: 0.1875rem 0 0.375rem;
+}
+.content .main .type_card .type .btn[data-v-1cf27b2a] {
+  width: 3.75rem;
+  height: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFC162;
+  border-radius: 1.25rem;
+  font-size: 0.625rem;
+  color: #fff;
+  background: #FFC162;
+}
+.content .main .type_card .list[data-v-1cf27b2a] {
+  height: 100%;
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 0.5rem;
+  padding: 0.625rem 0.5rem;
+  box-sizing: border-box;
+}
+.content .main .type_card .list uni-text[data-v-1cf27b2a] {
+  padding: 0.3125rem 0;
+  text-align: center;
+  color: #333;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F5F5F5;
+  border-radius: 0.5rem;
+}
+.content .main .type_card .list uni-text.active[data-v-1cf27b2a] {
+  background: #E0EFFF;
+  color: #1677FF;
+}
+.content .main .doctors[data-v-1cf27b2a] {
+  border-radius: 0.5rem;
+  background: #FFF;
+  padding: 0.5rem 0.625rem 0 0;
+}
+.content .main .doctors .title[data-v-1cf27b2a] {
+  font-size: 1rem;
+  color: #000;
+  padding: 0.625rem 0.75rem;
+}
+.content .main .doctors_content[data-v-1cf27b2a] {
+  display: flex;
+  height: 13.25rem;
+  gap: 0.625rem;
+}
+.content .main .doctors_content .left[data-v-1cf27b2a] {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(180deg, #D6E6F8 0%, #FFFFFF 75%);
+  border-radius: 0.625rem;
+}
+.content .main .doctors_content .left .info[data-v-1cf27b2a] {
+  text-align: center;
+  color: #333;
+  padding-top: 0.8125rem;
+  line-height: 1.6;
+}
+.content .main .doctors_content .left .info .name[data-v-1cf27b2a] {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.content .main .doctors_content .left .info .award[data-v-1cf27b2a] {
+  font-size: 0.875rem;
+}
+.content .main .doctors_content .left .avator[data-v-1cf27b2a] {
+  display: flex;
+  justify-content: flex-end;
+}
+.content .main .doctors_content .left .avator uni-image[data-v-1cf27b2a] {
+  width: 7.0625rem;
+  height: 9.25rem;
+  display: block;
+}
+.content .main .doctors_content .right[data-v-1cf27b2a] {
+  width: 11.3125rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+.content .main .doctors_content .right .item[data-v-1cf27b2a] {
+  height: 4.16656rem;
+  background: linear-gradient(180deg, #D6E6F8 0%, #FFFFFF 75%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.625rem;
+}
+.content .main .doctors_content .right .item_info[data-v-1cf27b2a] {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  gap: 0.25rem;
+  padding-left: 0.625rem;
+}
+.content .main .doctors_content .right .item_info .name[data-v-1cf27b2a] {
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+.content .main .doctors_content .right .item_info .award[data-v-1cf27b2a] {
+  font-size: 0.625rem;
+}
+.content .main .doctors_content .right .item_hd uni-image[data-v-1cf27b2a] {
+  width: 4.4375rem;
+  height: 3.8125rem;
+  display: block;
+}
+.content .main .category .tab_content[data-v-1cf27b2a] {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  padding: 0.625rem 0;
+}
+.content .main .category .tab_content .iformation[data-v-1cf27b2a] {
+  padding: 0.625rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+}
+.content .main .category .tab_content .iformation .basic[data-v-1cf27b2a] {
+  display: flex;
+  gap: 0.625rem;
+}
+.content .main .category .tab_content .iformation .basic .avator[data-v-1cf27b2a] {
+  width: 4.375rem;
+  height: 4.375rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.content .main .category .tab_content .iformation .basic .avator uni-image[data-v-1cf27b2a] {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.content .main .category .tab_content .iformation .sign[data-v-1cf27b2a] {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.3125rem;
+}
+.content .main .category .tab_content .iformation .sign_name[data-v-1cf27b2a] {
+  display: flex;
+  gap: 0.625rem;
+}
+.content .main .category .tab_content .iformation .sign_name .name[data-v-1cf27b2a] {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.content .main .category .tab_content .iformation .sign_name .tag[data-v-1cf27b2a] {
+  min-width: 7.375rem;
+  height: 1.375rem;
+  background-image: url(../../static/index/tag.png);
+  background-size: 7.375rem 1.375rem;
+  background-repeat: no-repeat;
+  font-size: 0.75rem;
+  color: #Fff;
+  padding-left: 1.375rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.content .main .category .tab_content .iformation .sign .address[data-v-1cf27b2a] {
+  display: flex;
+}
+.content .main .category .tab_content .iformation .sign .address uni-text[data-v-1cf27b2a] {
+  background-color: #FD8702;
+  border-radius: 0.3125rem;
+  font-size: 0.75rem;
+  color: #fff;
+  padding: 0 0.3125rem;
+}
+.content .main .category .tab_content .iformation .describe[data-v-1cf27b2a] {
+  font-size: 0.75rem;
+  font-weight: 350;
+  line-height: 1.25rem;
+  color: #606972;
+  padding: 0.625rem 0;
+}
+.content .main .category .tab_content .iformation .feature[data-v-1cf27b2a] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .main .category .tab_content .iformation .feature .btn[data-v-1cf27b2a] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+.content .main .category .tab_content .iformation .feature .btn uni-image[data-v-1cf27b2a] {
+  width: 1.4375rem;
+  height: 1.4375rem;
+}
+.content .main .category .tab_content .iformation .feature .btn uni-text[data-v-1cf27b2a] {
+  font-size: 0.75rem;
+  color: #333;
+}
